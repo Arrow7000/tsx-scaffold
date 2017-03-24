@@ -1,0 +1,18 @@
+{
+    "name": "webpack-experiments",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "webpack-dev-server --open"
+    },
+    "dependencies": {
+        "lodash": "^4.17.4",
+        "react": "^15.4.2",
+        "ts-loader": "^2.0.3",
+        "typescript": "^2.2.1"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.57",
+        "webpack": "^2.3.1",
+        "webpack-dev-server": "^2.4.2"
+    }
+}

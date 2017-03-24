@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "es5",
+        "moduleResolution": "node"
+    },
+    "include": [
+        "./app/*"
+    ]
+}
