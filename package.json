@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "scripts": {
         "start": "webpack-dev-server --open",
-        "build": "webpack"
+        "build": "webpack -p"
     },
     "dependencies": {
         "@types/lodash": "^4.14.57",
