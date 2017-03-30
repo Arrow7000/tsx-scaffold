@@ -1,10 +1,21 @@
-import  * as React from 'react';
+import React, { Component } from 'react';
 
+interface AppProps {
+    name: string;
+}
 
-class App extends React.Component {
-    render(){
-        return (<h1>Hello!</h1>);
+interface AppState { }
+
+class App extends Component<AppProps, AppState> {
+    constructor() {
+        super();
+        this.state = {};
+    }
+
+    render() {
+        const { name } = this.props;
+        return (<h1>Hello {name}!</h1>);
     }
 }
 
-export default App;
+export default App; 

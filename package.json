@@ -1,19 +1,19 @@
 {
-    "name": "webpack-experiments",
-    "version": "0.0.1",
+    "name": "tsx-scaffold",
+    "version": "0.1.0",
     "scripts": {
         "start": "webpack-dev-server --open"
     },
     "dependencies": {
+        "@types/lodash": "^4.14.57",
+        "@types/react": "^15.0.20",
+        "@types/react-dom": "^0.14.23",
         "html-webpack-plugin": "^2.28.0",
         "lodash": "^4.17.4",
         "react": "^15.4.2",
         "react-dom": "^15.4.2",
         "ts-loader": "^2.0.3",
-        "typescript": "^2.2.1"
-    },
-    "devDependencies": {
-        "@types/lodash": "^4.14.57",
+        "typescript": "^2.2.1",
         "webpack": "^2.3.1",
         "webpack-dev-server": "^2.4.2"
     }
